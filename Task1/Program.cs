@@ -8,9 +8,9 @@ b =Convert.ToInt32(Console.ReadLine());
 
 if (a > b)
 {
-    Console.WriteLine("Большее значение = " + a);
+    Console.WriteLine("Большее значение = " + a + " Меньшее значение = " + b);
 }
 else
 {
-    Console.WriteLine("Большее значение = " + b);
+    Console.WriteLine("Большее значение = " + b + " Меньшее значение = " + a);
 }
