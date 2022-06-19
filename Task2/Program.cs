@@ -2,10 +2,10 @@
 //выдаёт максимальное из этих чисел.
 double a , b, c;
 
-Console.WriteLine("Введите три числа");
-a =Convert.ToInt32(Console.ReadLine());
-b =Convert.ToInt32(Console.ReadLine());
-c =Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Введите три числа поочередно");
+a =Convert.ToDouble(Console.ReadLine());
+b =Convert.ToDouble(Console.ReadLine());
+c =Convert.ToDouble(Console.ReadLine());
 
 if ((a > b) & (a > c))
 {
