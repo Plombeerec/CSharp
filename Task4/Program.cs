@@ -4,15 +4,18 @@ int number;
 
 Console.WriteLine("Введите число");
 number =Convert.ToInt32(Console.ReadLine());
-while (number > 0)
+
+int count = number *(-1);
+
+while (count <= number)
 {
-    if (number % 2 == 0)
+    if ((count > 0) &&(count % 2 ==0))
     {
-     Console.Write(number + ", ");
-     number --;
+        Console.Write(count +", ");
+       count ++;
     }
     else
     {
-        number --;
-}
+        count ++;
+    }
 }
